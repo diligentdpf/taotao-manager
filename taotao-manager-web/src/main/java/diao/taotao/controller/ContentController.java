@@ -39,11 +39,11 @@ public class ContentController {
 		TaotaoResult result = contentService.insertContent(content);
 		return result;
 	}
-	
+
 	/**
-	 * 内容删除 2016年5月29日13:23   content/delete 404 (Not Found)
+	 * 内容删除 2016年5月29日13:23 content/delete 404 (Not Found)
 	 */
-	@RequestMapping(value="/delete",method=RequestMethod.POST)
+	@RequestMapping(value = "/delete", method = RequestMethod.POST)
 	@ResponseBody
 	// 如果id为null是使用默认值，也就是parentid为0的分类列表
 	public TaotaoResult contentDel(String ids) throws Exception {
