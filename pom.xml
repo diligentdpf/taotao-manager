@@ -35,6 +35,9 @@
 				<configuration>
 					<port>8083</port>
 					<path>/</path>
+					<url>http://192.168.1.193:8074/manager/text</url>
+					<username>diao</username>
+					<password>diao</password>
 				</configuration>
 			</plugin>
 		</plugins>
