@@ -24,6 +24,7 @@
 		<module>taotao-manager-mapper</module>
 		<module>taotao-manager-service</module>
 		<module>taotao-manager-web</module>
+		<module>diqo.diaod.dio</module>
 	</modules>
 
 	<build>
